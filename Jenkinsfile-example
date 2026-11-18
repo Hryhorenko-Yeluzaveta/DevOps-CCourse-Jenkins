@@ -18,7 +18,7 @@ pipeline {
 		}
 		stage('Build') {
             		steps {
-                		echo 'TODO: docker build образа приложения'
+                		echo 'TODO: docker build застосунку'
             		}
         	}
         	stage('Deploy') {
@@ -28,7 +28,7 @@ pipeline {
         	}
         	stage('Smoke') {
             		steps {
-                		echo 'TODO: curl — проверить, что сайт живой'
+                		echo 'TODO: curl — перевірити, що сайт живий'
             		}
         	}
 	}
